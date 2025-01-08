@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td colspan="3" title="Keynote by suguna m." style="background-color: lightblue;">Keynote</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td title="Workshop by yash: Data Science " style="background-color: lightgreen;">Workshop</td>
+                <td title="Session by sandeep sir: web programming" style="background-color: lightyellow;">Session</td>
+                <td title="Workshop by shaurya: UX Design Principles" style="background-color: lightgreen;">Workshop</td>
+            </tr>
+            <tr>
+                <td rowspan="2">13:30 - 14:30</td>
+                <td colspan="2" title=" Discussion: Emerging Tech Trends" style="background-color: lightcoral;"> Discussion</td>
+                <td title="Session by yash srivastava: Cyber physical sysytems Basics" style="background-color: lightyellow;">Session</td>
+            </tr>
+            <tr>
+                <td title=" IoT Applications" style="background-color: lightyellow;">Breakout</td>
+                <td colspan="2" title="Workshop by ishaan" style="background-color: lightgreen;">Workshop</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Legend</h2>
+    <ul>
+        <li style="background-color: lightblue;">Keynote</li>
+        <li style="background-color: lightgreen;">Workshop</li>
+        <li style="background-color: lightyellow;">Session</li>
+        <li style="background-color: lightcoral;"> Discussion</li>
+    </ul>
+</body>
+</html>
